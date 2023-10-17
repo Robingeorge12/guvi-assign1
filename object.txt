@@ -1,0 +1,31 @@
+Write a blog about objects and its internal representation in Javascript
+
+
+In JavaScript, an object is a complex data type that represents a collection of key-value pairs.
+These key-value pairs to store and manipulate data.
+Obects can contain different data types as its values ,including other objects
+
+ eg:
+       const person = {
+                      Name: "Robin George",
+                        age: 27,
+
+                       address : {
+
+                                 Place: "Kerala",
+                                 district:"Idukki:,
+                                 pin:787878,
+                          }
+          };
+
+
+internal representation:=>
+
+Properties and Values: Objects are collections of key-value pairs. Properties are the keys, and values are the associated data.
+
+Memory Allocation: When an object is created in JavaScript, memory is allocated for it. This memory contains not only the values of the object's properties
+ but also some additional information required to manage the object.
+
+Reference to Memory Location: Instead of storing the actual values within the object,
+ JavaScript stores references to memory locations where these values are kept. 
+ This means that objects are references to data rather than the data themselves
