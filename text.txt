@@ -1,0 +1,33 @@
+
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+ans :=>
+    HTTP is a application layer communiction protocol which standardize how 
+    the client and server communicte with each other.It defines how the content is requested and transmitted across the internet.
+    HTTP is a stateless protocol , that means ,the server doen't keep any data between two requests.
+
+    HTTP/1.1 := 
+    It has some limitation that contrained the web performance.
+    In this protocol all the resources are requested one at time.If any one of the resources is getting delayed to load 
+    ,it affected the entire website to load and took more time.   
+    Every HTTP/1.1 request establishes a new connection to the server, incurring the overhead of multiple round-trips.
+    HTTP/1.1 supports data compression with GZIP, it can't compress multiple files in parallel. This inefficiency results in longer load times.
+
+
+    HTTP/2 :=
+    It gives a significant performance boost.
+    It introduces multiplexing , that means allowing multiple request and response to be processed
+     in parallel over a single connection.
+    It reduces page load time and increase performance.
+
+     HTTP/2 uses HPACK, a header compression algorithm, to reduce the overhead of sending headers with each request.
+      This feature saves bandwidth and speeds up the communication between the client and server.
+
+     HTTP/2 encourages the reuse of connections, 
+     further reducing latency and improving efficiency.
+
+    HTTP/2 allows clients to specify the importance of different resources, enabling the server
+    to serve the most critical assets first. This results in faster rendering of the web page.
+
+    HTTP/2 allows clients to specify the importance of different resources, enabling the server to serve the most critical assets first. 
+    This results in faster rendering of the web page.
